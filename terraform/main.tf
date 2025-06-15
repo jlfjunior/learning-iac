@@ -10,11 +10,11 @@ terraform {
 }
 
 provider "aws" {
-  region = "us-east-1"
+  region = var.aws_region
 }
 
 resource "aws_instance" "ubuntu_server" {
-  ami           = "ami-09e6f87a47903347c"
+  ami           = var.aws_ubuntu_ami
   instance_type = "t2.micro"
 
   tags = {
