@@ -38,3 +38,6 @@ terraform.rc
 
 # Mac Files
 .DS_Store
+
+# Ignore lock files
+.terraform.lock.hcl
