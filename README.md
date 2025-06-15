@@ -1,1 +1,1 @@
-# learning-iac
+# Learning Infrastructure as Code
