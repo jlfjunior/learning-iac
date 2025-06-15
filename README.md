@@ -6,7 +6,7 @@ Infrastructure as Code (IaC) tools allow you to manage infrastructure with confi
 ## Used Tools
 | Tool | Description |
 |------|-------------|
-| Terraform | Is an infrastructure as code tool, developted by HashCorp company that lets you build, change, and version infrastructure safely and efficiently. |
+| [Terraform](./docs/terraform.md) | Is an infrastructure as code tool, developted by HashCorp company that lets you build, change, and version infrastructure safely and efficiently. |
 
 
 ## References
