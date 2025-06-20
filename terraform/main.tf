@@ -11,13 +11,9 @@ terraform {
 
 provider "aws" {
   region = var.aws_region
-}
-
-resource "aws_instance" "ubuntu_server" {
-  ami           = var.aws_ubuntu_ami
-  instance_type = "t2.micro"
-
-  tags = {
-    Name = "Ubuntu Server"
+  default_tags {
+    tags = {
+      managed_by = "Terraform"
+    }
   }
 }
